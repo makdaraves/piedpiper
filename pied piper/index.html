@@ -8,15 +8,16 @@
     <link rel="icon" href="PPC Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="normalizу" href="normalizу.css">
+    <link rel="script" href="script.jss">
 </head>
 
 <body>
+    <div class="temno">
     <header>
         <div class="header">
             <div class="container">
-
                 <div class="header_logo">
-                    <a href="#">
+                    <a href="#form">
                         <img src="header/logo.svg" alt="">
                     </a>
                 </div>
@@ -26,12 +27,25 @@
                     <a href="#PiedPiperCoin"> PiedPiperCoin</a>
                     <span class="line">|</span>
                     <a href="#the_team">the team</a>
-
-
+                    <a id="lk" href="reg.html">Private office</a>
                 </div>
             </div>
         </div>
     </header>
+    <!--
+    <div class="okno" id="form">
+        <form action='#' class="container form-container">
+            <h1>Личный кабинет</h1>
+            <label for="name"><b>Имя</b></label>
+            <input type="text" name="Логин" required>
+            <label for="Пароль"><b>Е-мейл</b></label>
+            <input type="password" name="Пароль" required>
+            <button type="submit" class="btn">Войти</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+            </div>
+        </form>
+    -->
+    </div>
     <div class="here">
         <div class="container">
             <div class="heading">
@@ -173,13 +187,7 @@
             </div>
         </div>
     </footer>
-    <script>
-        $("body").on('click', '[href*="#"]', function (e) {
-            var fixed_offset = 100;
-            $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-            e.preventDefault();
-        });
-    </script>
+    </div>
 </body>
 
 </html>

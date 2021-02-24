@@ -47,6 +47,10 @@ font-size: 24px;
     opacity: 70%;
     text-decoration: none;
 }
+#lk{
+padding-left: 40px;
+font-size: 16px;
+}
 .line{
 padding: 0 10px;
   font-size: 24px; 
@@ -169,12 +173,35 @@ figcaption{
     text-align: center;
     font-size: 18px;
     color: white;
+}
+.okno{
+    align-items: center;
+    justify-content: center;
+    max-width: 380px;
+    margin: auto;
+    
     
 }
-
-
-
-
-
-
-    
+h4{
+    text-align: center;
+    padding-top: 90px;
+    font-style: medium;
+    font-size: 33px;
+    color: #007765;
+    padding-bottom: 40px;
+}
+.pole{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+   
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+background-color:#007765;
+color: white;
+font-size: 18px;
+}
