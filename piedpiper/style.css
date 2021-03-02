@@ -1,0 +1,207 @@
+   html,body{
+    margin: 0% auto;
+   }
+div{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+	box-sizing: border-box;		
+	font-family: 'Roboto', sans-serif;	
+    font-style: normal;
+    transition: 0.5s;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 84px;
+    background-color: #007765;
+    top: 0;
+    left: 0;
+}
+.menu{
+    float: right;
+    margin-top: 28px;
+    
+}
+.menu a{
+color: white;
+text-decoration: none;
+font-size: 24px;
+}
+.menu a:visited{
+    color:white;
+    text-decoration: none;  
+}
+.menu a:hover{
+    color:white;
+    opacity:70%;
+    text-decoration:underline;
+    font-size: 30px;
+    
+}
+.menu a:active{
+    color: white;
+    opacity: 70%;
+    text-decoration: none;
+}
+#lk{
+padding-left: 40px;
+font-size: 16px;
+}
+.line{
+padding: 0 10px;
+  font-size: 24px; 
+  color: white; 
+}
+.header_logo{
+   float: left; 
+   margin-top: 20px;
+    
+}
+
+.here{
+    min-height: 403px;
+    width: 100%;
+    padding: 0;
+    background: url(bggreen.jpg) 0 0 / cover no-repeat;
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container{
+    max-width: 1219px;
+    margin: 0% auto;
+    padding-left: 55px;
+    padding-right: 55px;
+       
+}
+.heading{
+    color: white;
+    font-size: 72px;
+    font-style: medium;
+}
+.problem{
+    background-color: #EEEEEE;
+    width: 100%;
+    min-height: 719px;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1{
+    text-align: center;
+    padding-top: 90px;
+    font-style: medium;
+    font-size: 64px;
+    color: #007765;
+}
+p{
+    padding-top: 30px;
+    width: 1110px;
+margin: 0 auto;
+margin-bottom: 0,5em;
+font-size: 32px;
+}
+.blue{
+    background-image: url(bgblue.jpg);
+    width: 100%;
+    min-height: 483px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.content_blue{
+width: 1000px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    font-style: italic;
+    font-style: medium;
+}
+.logo{
+    margin: 0;
+    padding-top: 30px;
+    width: 150px;
+    float: left;
+    padding-right: 30px;
+}
+.team {
+    background-color: #EEEEEE;
+    width: 100%;
+    min-height: 845px;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center; 
+}
+h3{
+    font-style: bold;
+    color: #007765;
+    font-size: 24px;
+}
+.level{
+    font-style: italic;
+    font-size: 18px;
+}
+.photo{
+    width: 350px;
+    float:left; 
+    text-align:center;
+    padding-bottom: 50px;
+} 
+.cards{
+    margin-top: 70px;
+} 
+figcaption{
+    text-align: center;
+    padding-top: 12px;
+}
+.footer{
+    background:#333333;
+    min-height: 176px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_footer{
+    width: 540px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.okno{
+    align-items: center;
+    justify-content: center;
+    max-width: 380px;
+    margin: auto;
+    
+    
+}
+h4{
+    text-align: center;
+    padding-top: 90px;
+    font-style: medium;
+    font-size: 33px;
+    color: #007765;
+    padding-bottom: 40px;
+}
+.pole{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+   
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+background-color:#007765;
+color: white;
+font-size: 18px;
+}
